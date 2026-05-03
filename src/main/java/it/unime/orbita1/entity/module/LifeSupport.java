@@ -17,7 +17,7 @@ public final class LifeSupport extends StationModule {
 
     /**
      * Constructs a LifeSupport module with the name "LifeSupport".
-     * OOP concept: Constructor — initializes the Bridge module with a specific name.
+     * OOP concept: Constructor — initializes the LifeSupport module with a specific name.
      */
     public LifeSupport(){
         super("Life Support");
