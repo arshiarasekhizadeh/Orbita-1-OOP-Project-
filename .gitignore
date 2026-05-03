@@ -1,0 +1,17 @@
+*.class
+.vscode/settings.json
+.idea/
+*.iml
+*.log
+*.tmp
+.DS_Store
+node_modules/
+dist/
+build/
+coverage/
+.env
+*.env
+.classpath 
+.project 
+.settings/
+.github/
