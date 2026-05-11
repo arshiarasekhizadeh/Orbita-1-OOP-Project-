@@ -5,6 +5,7 @@ import javafx.stage.Stage;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
 import java.net.URL;
+import it.unime.orbita1.gui.SceneManager;
 
 
 /**
@@ -41,6 +42,7 @@ public class Orbita1App extends Application {
                 e.printStackTrace();
             }
         primaryStage.setTitle("Orbita-1");
+        SceneManager.initialize(primaryStage);
         primaryStage.setMinWidth(1280);
         primaryStage.setMinHeight(720);     
         primaryStage.show();

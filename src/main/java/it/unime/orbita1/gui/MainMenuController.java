@@ -32,7 +32,7 @@ public class MainMenuController
      */
     @FXML
     private void onNewMissionClicked() {
-        System.out.println("New Mission clicked");
+        SceneManager.switchTo("/it/unime/orbita1/gui/MissionSetup.fxml");
     }
 
     /**
