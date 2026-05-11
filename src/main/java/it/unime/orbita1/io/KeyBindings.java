@@ -53,6 +53,14 @@ public final class KeyBindings{
         bindings.put(action, key);
     }
 
+    /** Retrieves an unmodifiable view of the current key bindings. This method returns a read-only map of the action-to-key mappings, allowing users to view the current key bindings without being able to modify them directly. This promotes encapsulation by preventing external code from altering the internal state of the KeyBindings instance. 
+     * @return an unmodifiable map containing the current action-to-key bindings
+    */
+    public Map<String, String> getBindings() {
+        return java.util.Collections.unmodifiableMap(bindings);
+    }
+
+
     /** Saves the current key bindings to a file. This method writes the contents of the bindings map to a specified file, with each line containing an action and its associated key in the format "action=key". It handles potential IO exceptions that may occur during file writing and ensures that the writer is properly closed after the operation. 
      * @param filePath the path to the file where the key bindings should be saved
     */

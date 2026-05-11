@@ -40,7 +40,8 @@ public class MainMenuController
      */
     @FXML
     private void onSettingsClicked() {
-        System.out.println("Settings clicked");
+        SceneManager.switchTo("/it/unime/orbita1/gui/Settings.fxml");
+        
     }
 
     /**
